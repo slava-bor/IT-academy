@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    background-color: rgba(194, 240, 240, 0.397);
+}
+.center-display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+h3 {
+    color: blue;
+}
+.bold {
+    font-weight: bold;
+}
+.button {
+    align-items: center;
+    justify-content: space-evenly;
+}
+button {
+    width: 100px;
+    border-radius: 5px;
+    margin: 2px;
+}
+#temp_task4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
