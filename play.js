@@ -66,14 +66,14 @@ function resultСheck(playsquare) {
 function stopgame(winner) {
     switch(winner) {
         case 0:  
-            console.log('Победили Нолики');
+            document.querySelector('#result').innerHTML = `Победили нолики`;
             break;
         case 1:
-            console.log('Победили Крестики');
+            document.querySelector('#result').innerHTML = `Победили крестики`;
             break;
         default:
-            console.log('Количеcтво ходов закончено. Результат ничья');
+            document.querySelector('#result').innerHTML = `Ничья`;
     }
     document.querySelector('#game_over').style.display = 'block'; //наложили прозрачный div поверх игрового поля
-    document.querySelector('h2').style.display = 'block'; //наложили прозрачный div поверх игрового поля
+    document.querySelector('#win').style.display = 'block'; //активируем div#win для вывода победителя
 };
