@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#play_field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 440px;
+    height: 440px;
+    position: relative;
+    top: -15px;
+}
+
+.play_square {
+    display: flex;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(43, 70, 226);
+    border: 2px solid #560f85;;
+    border-radius: 20px;
+    font-size: 150px;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.play_square:hover {
+    background: #533cd8; /* Цвет фона */
+    border: 2px solid #23acb1;;
+}
+
+#game_over {
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    display: none;
+    top: 72px;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(21, 19, 160);
+}
+
+#result{
+    font-size: 50px;
+    text-align: center;
+}
+
+#win{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    display: none;
+    color: rgb(161, 23, 23);
+}
+
+button{
+    border-radius: 15px;
+    font-size: 20px;
+}
