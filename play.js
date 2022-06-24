@@ -35,7 +35,7 @@ playfield.addEventListener ('click', event => {
         else {
             if (event.target.value != 0 && event.target.value != 1){ // если игровой квадрат пустой, присваиваем +
                 event.target.value = 1;
-                event.target.innerHTML  = `+`;
+                event.target.innerHTML  = `X`;
                 playerMove += 1;
             }
         }
