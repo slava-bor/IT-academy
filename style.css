@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#play_field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /* background-color: aquamarine;
+    border-color: blue; */
+
+}
+.play_square {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(43, 70, 226);
+    border: 2px solid #560f85;;
+    border-radius: 20px;
+    font-size: 150px;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+.play_square:hover {
+    background: #533cd8; /* Цвет фона */
+    border: 2px solid #23acb1;;
+}
+
+#game_over {
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    display: none;
+    top: 82px;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(21, 19, 160);
+}
+
+h2{
+    position: absolute;
+    font-size: 75px;
+    font-weight: bold;
+    display: none;
+    color: rgb(161, 23, 23);
+}
