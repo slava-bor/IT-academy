@@ -23,7 +23,7 @@ const resultWinner = [
 let playerMove = 0;
 
 playfield.addEventListener ('click', event => {
-    if (event.target.ClassName = 'play_square') 
+    if (event.target.className == 'play_square') 
     {
         if (playerMove % 2 == 0) {
             if (event.target.value != 0 && event.target.value != 1){ // если игровой квадрат пустой, присваиваем 0
