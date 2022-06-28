@@ -13,8 +13,8 @@ let n; //количество столбцов
 function myClick() {
 
     let input = document.querySelectorAll('input');
-    m = +input[0].value;
-    n = +input[1].value;
+    n = +input[0].value;
+    m = +input[1].value;
     let form = document.querySelector('form'); //выключаем поле ввода значений строк и столбцов
     form.style.display = 'none';
     let wth = m * 76 + 'px';
