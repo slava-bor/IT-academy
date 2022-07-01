@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики нолики</title>
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Играем в крестики нолики</h1>
+    <form id="input">
+        <label>Задайте размер поля</label>
+        <input type="text" placeholder="Строки" class="stroka">
+        <input type="text" placeholder="Столбцы" class="stolbec">
+        <button type="button" onclick="myClick()" class="button">Играть</button>
+    </form>
+
+    <div id="play_field"></div>
+    <div id="game_over"></div>
+    <div id="win">
+        <h2>GAME OVER</h2>
+        <p id="result"></p>
+    </div>
+
+    <form id="next_game">
+        <button type="button" onclick="location.reload()">Начать игру сначала</button>
+    </form>
+    
+    <script src="/play.js"></script>
+
+</body>
+</html>
