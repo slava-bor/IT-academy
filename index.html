@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="input">
+                <input type="text" placeholder="Имя" id="name">
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Фамилия" id="surname">
+            </div>
+            <div class="input">
+                <button id="send-button">Отправить</button>
+            </div>
+        </div>
+        <div class="users">
+            <h1>Список пользователей</h1>
+            <ul id="list-of-users"></ul>
+        </div>
+    </div>
+    <script type="module" src="./firebase.js"></script>
+</body>
+</html>
