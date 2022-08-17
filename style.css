@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+
+.container {
+    display: grid;
+    width: 450px;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 0.5fr 0.6fr 1.9fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day-current inform-current"
+      "day-current inform-current"
+      "week inform-current"
+      "quote quote";
+    background-color: rgb(56, 82, 100);
+    color: rgb(209, 221, 231);
+    justify-content: center;
+    margin: 5px;
+}
+
+.quote {
+  display: grid;
+  color: rgb(113, 192, 197);
+  text-align: center;
+  grid-area: quote;
+}
+
+.day-current {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    grid-template-rows: 0.4fr 1.6fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "oblachnost oblachnost"
+      "kartinka temp-current";
+    grid-area: day-current;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.oblachnost {grid-area: oblachnost; text-align: center;}
+.kartinka { grid-area: kartinka; }
+.temp-current { 
+  font-size: 60px;
+  grid-area: temp-current; 
+}
+
+.week {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day-week1 day-week2 day-week3 day-week4 day-week5";
+    grid-area: week;
+}
+
+.day-week1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day1"
+      "img1"
+      "temp-max1"
+      "temp-min1";
+    grid-area: day-week1;
+    align-items: center;
+    justify-items: center;
+}
+
+.img1 { grid-area: img1; }
+.temp-max1 { grid-area: temp-max1; }
+.temp-min1 { grid-area: temp-min1; }
+.day1 { grid-area: day1; }
+
+.day-week2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day2"
+      "img2"
+      "temp-max2"
+      "temp-min2";
+    grid-area: day-week2;
+    align-items: center;
+    justify-items: center;
+}
+
+.day2 { grid-area: day2; }
+.img2 { grid-area: img2; }
+.temp-max2 { grid-area: temp-max2; }
+.temp-min2 { grid-area: temp-min2; }
+  
+.day-week3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day3"
+      "img3"
+      "temp-max3"
+      "temp-min3";
+    grid-area: day-week3;
+    align-items: center;
+    justify-items: center;
+}
+
+.day3 { grid-area: day3; }
+.img3 { grid-area: img3; }
+.temp-max3 { grid-area: temp-max3; }
+.temp-min3 { grid-area: temp-min3; }
+
+.day-week4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day4"
+      "img4"
+      "temp-max4"
+      "temp-min4";
+    grid-area: day-week4;
+    align-items: center;
+    justify-items: center;
+}
+
+.day4 { grid-area: day4; }
+.img4 { grid-area: img4; }
+.temp-max4 { grid-area: temp-max4; }
+.temp-min4 { grid-area: temp-min4; }
+
+.day-week5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "day5"
+      "img5"
+      "temp-max5"
+      "temp-min5";
+    grid-area: day-week5;
+    align-items: center;
+    justify-items: center;
+}
+
+.day5 { grid-area: day5; }
+.img5 { grid-area: img5; }
+.temp-max5 { grid-area: temp-max5; }
+.temp-min5 { grid-area: temp-min5; }
+
+.inform-current {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      "feel"
+      "wind"
+      "vision"
+      "pressure"
+      "humidity"
+      "."
+      "sunrise"
+      "sunset"
+      "."
+      "update-time"
+      "city"
+      ".";
+    color: rgb(170, 194, 209);
+    grid-area: inform-current;
+}
+
+.city { grid-area: city; }
+.update-time { grid-area: update-time; }
+.sunset { grid-area: sunset; }
+.sunrise { grid-area: sunrise; }
+.humidity { grid-area: humidity; }
+.pressure { grid-area: pressure; }
+.vision { grid-area: vision; }
+.wind { grid-area: wind; }
+.feel { grid-area: feel; }
+
+.map {
+  width: 450px;
+  height: 300px;
+}
+
+.cityChange {  
+  width: 150px;
+  padding: 5px 0;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
