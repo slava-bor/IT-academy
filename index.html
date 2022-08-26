@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <p class="message">Авторизация</p>
+
+          <form class="register-form">
+            <input class="emailUp" name="emailUp" type="text" placeholder="логин / email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" />
+            <p class="emailUp_message">в формате: name@mail.by</p>
+            <input class="passwordUp" name="passwordUp" type="password" placeholder="пароль" autocomplete="on"/ minlength="6" maxlength="12">
+            <p class="passwordUp_message">введите пароль от 6 до 9 символов</p>
+            <input class="passwordUpConf" name="passwordUpConf" type="password" placeholder="подтвердите пароль" autocomplete="on"/ minlength="6" maxlength="12">
+            <p class="passwordUpConf_message">введите пароль от 6 до 9 символов</p>
+            <button id="signUpBtn">Создать</button>
+            <p class="registeredUser">Уже зарегистрированы? <a href="#">Войти</a></p>
+          </form>
+
+          <form class="login-form">
+            <input class="emailIn" name="emailIn" type="text" placeholder="логин / email"/>
+            <p class="emailIn_message">в формате: name@mail.by</p>
+            <input class="passwordIn" name="passwordIn" type="password" placeholder="пароль" autocomplete="on"/>
+            <p class="passwordIn_message">длина пароля не менее 6 символов</p>
+            <button id="signInBtn">Войти</button>
+            <p class="createUser">Регистрация <a href="#">нового пользователя</a></p>
+          </form>
+
+          <p class='message_error'></p>
+
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
