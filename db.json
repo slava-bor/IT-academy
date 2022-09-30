@@ -1,0 +1,254 @@
+{
+  "compressors": [
+    {
+      "brand": "Dali",
+      "capacity": 0.8,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "DL-0.8/8RA",
+      "name": "DL-08RA",
+      "power": 6.5,
+      "pressure": 0.8,
+      "price": 780
+    },
+    {
+      "brand": "Dali",
+      "capacity": 1.2,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "DL-1.2/8RA",
+      "name": "DL-128RA",
+      "power": 7.5,
+      "pressure": 0.8,
+      "price": 800
+    },
+    {
+      "brand": "Dali",
+      "capacity": 1,
+      "img": "image/DALI/dali_belt_DL_140x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "DL-1.0/10RA",
+      "name": "DL-1010R",
+      "power": 7.5,
+      "pressure": 1,
+      "price": 820
+    },
+    {
+      "brand": "Dali",
+      "capacity": 0.8,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "DL-0.8/13RA",
+      "name": "DL-0813RA",
+      "power": 7.5,
+      "pressure": 1.3,
+      "price": 850
+    },
+    {
+      "brand": "Dali",
+      "capacity": 1.7,
+      "img": "image/DALI/dali_belt_DL_140x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "DL-1.7/8RA",
+      "name": "DL-178RA",
+      "power": 11,
+      "pressure": 0.8,
+      "price": 860
+    },
+    {
+      "brand": "Dali",
+      "capacity": 1.5,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_2x4.html",
+      "model": "DL-10.5/8RA",
+      "name": "DL-1058RA",
+      "power": 11,
+      "pressure": 1,
+      "price": 845
+    },
+    {
+      "brand": "Dali",
+      "capacity": 1.2,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "DL-13/8RA",
+      "name": "DL-138RA",
+      "power": 11,
+      "pressure": 1.3,
+      "price": 950
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 0.75,
+      "img": "image/COMPRAG/comprag_tank_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "F0508",
+      "name": "F0508",
+      "power": 5.5,
+      "pressure": 0.8,
+      "price": 690
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 0.65,
+      "img": "image/COMPRAG/comp_belt_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "F0510",
+      "name": "F0510",
+      "power": 5.5,
+      "pressure": 1,
+      "price": 720
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 0.55,
+      "img": "image/COMPRAG/comprag_tank_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "F0513",
+      "name": "F0513",
+      "power": 5.5,
+      "pressure": 1.3,
+      "price": 735
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 1.1,
+      "img": "image/COMPRAG/comp_belt_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "F0708",
+      "name": "F0708",
+      "power": 7.5,
+      "pressure": 0.8,
+      "price": 820
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 0.9,
+      "img": "image/COMPRAG/comprag_tank_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "F0710",
+      "name": "F0710",
+      "power": 7.5,
+      "pressure": 1,
+      "price": 830
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 0.6,
+      "img": "image/COMPRAG/comprag_62_F_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_1x2.html",
+      "model": "F0713",
+      "name": "F0713",
+      "power": 7.5,
+      "pressure": 1.3,
+      "price": 855
+    },
+    {
+      "brand": "Dali",
+      "capacity": 3,
+      "img": "image/DALI/dali_belt_DL_140x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "DL-3.0/8RA",
+      "name": "DL-308RA",
+      "power": 18.5,
+      "pressure": 0.8,
+      "price": 1950
+    },
+    {
+      "brand": "Dali",
+      "capacity": 2.7,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "DL-2.7/10RA",
+      "name": "DL-2710RA",
+      "power": 18.5,
+      "pressure": 1,
+      "price": 1970
+    },
+    {
+      "brand": "Dali",
+      "capacity": 3.6,
+      "img": "image/DALI/dali_drive_DL_150x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "DL-3.6/8RA",
+      "name": "DL-368RA",
+      "power": 22,
+      "pressure": 0.8,
+      "price": 2050
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 3.1,
+      "img": "image/COMPRAG/comp_belt_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "F1808",
+      "name": "F1808",
+      "power": 18.5,
+      "pressure": 0.8,
+      "price": 1855
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 2.5,
+      "img": "image/COMPRAG/comprag_62_F_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "F1810",
+      "name": "F1810",
+      "power": 18.5,
+      "pressure": 1,
+      "price": 1910
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 3.6,
+      "img": "image/COMPRAG/comp_belt_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "F2208",
+      "name": "F2208",
+      "power": 22,
+      "pressure": 0.8,
+      "price": 2150
+    },
+    {
+      "brand": "Comprag",
+      "capacity": 3,
+      "img": "image/COMPRAG/comprag_62_F_130x130.jpg",
+      "url": "https://mtk.by/prod_belt_3x6.html",
+      "model": "F2210",
+      "name": "F2210",
+      "power": 22,
+      "pressure": 1,
+      "price": 2280
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@mail.ru",
+      "firstname": "Admin",
+      "lastname": "Admin",
+      "password": "1234",
+      "telephone": "+375 29 00000000"
+    },
+    {
+      "email": "petr@mail.ru",
+      "firstname": "Petr",
+      "lastname": "Petrov",
+      "password": "1234",
+      "telephone": "+375 29 2222222"
+    },
+    {
+      "email": "ivan@mail.ru",
+      "firstname": "Ivan",
+      "lastname": "Ivanov",
+      "password": "1234",
+      "telephone": "+375291111111"
+    },
+    {
+      "email": "sidor@mail.ru",
+      "firstname": "Sidor",
+      "lastname": "Sidorov",
+      "password": "1234",
+      "telephone": "+375293333333"
+    }
+  ]
+}
