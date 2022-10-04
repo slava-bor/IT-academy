@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <img src="https://placeimg.com/200/200/tech" alt="">
+    <img src="https://placeimg.com/200/200/animals" alt="">
+    <img src="https://placeimg.com/200/200/nature" alt=""> -->
+
+    <!-- <a href="">link1</a>
+    <a>link2</a> <!- эта ссылка без href в выборку не попадает
+    <a href="">link2</a> -->
+
+    <!-- <div class="product">
+        <div class="productName">product</div>
+        <img src="#" alt="">
+        <button>buy</button>
+        <div class="discount">
+            your discouny is: <span>30%</span>
+        </div>
+    </div> -->
+
+    <div class="product">
+        Lorem, ipsum dolor.
+         <!-- hello world -->
+        <div class="productName">Товар 1</div>
+        <img src="https://placeimg.com/200/200/animal" alt="товар 1">
+        <button>купить</button>
+    </div>
+
+    <script>
+        // let images = document.images; получаем все img
+        // let links = document.links; // links обязательно с s, иначе ошибка
+
+        // let discountEl = document.querySelector('.discount'); // ищем span в блоке <div class="discount">
+        // let spanEl = discountEl.querySelector('span');
+
+        // let productName = document.querySelector('.productName'); // ищем для class=productName его родительский class=product
+        // console.log(productName.parentNode);
+
+        let product = document.querySelector('.product'); // обращаемся к class=product и выводим всё что в его блоке, даже комменты, писать с S  childNodes
+        // console.log(product.childNodes); //childNodes выведет всё, и тэги, и текст и ссылки
+        console.log(product.children); //children выведет только тэги
+
+    </script>
+</body>
+
+</html>
